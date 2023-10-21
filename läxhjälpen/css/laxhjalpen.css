@@ -1,20 +1,20 @@
 @charset "UTF-8";
 body {
-    margin: auto;
+    margin: auto; /* Centrera sidan*/
     max-width: 860px;
     font-family: sans-serif;
-    font-size:100%
+    font-size:100% /* Startvärde */
 }
 
 section, header, footer {
-    outline: 1px solid red;
+    outline: 1px solid red; /* Provisorisk */
 }
 
 header {
     text-align: center;
 }
 .startpage h1 {
-    font-size: 500%
+    font-size: 500% /* Massiv rubrik på startsidan */
 }
 .startpage{
     display: flex;
@@ -43,6 +43,7 @@ header {
     color: #A62F00;
 }
 .menu h2 {
+    /*Nya rader i befintlig regel*/
     box-shadow: inset 0 0 20px #007241;
     border-radius: 50%;
 }
@@ -51,15 +52,16 @@ html {
 }
 .tagline {
     font-size: 120%;
-    padding: 0.5em;
+    padding: 0.5em; /* Avstånd till kantlinje */
     border-top: 3px double #00AF64;
     border-bottom: 3px double #00AF64;
-    margin: 1em 0;
+    margin: 1em 0; /* Avstånd nedåt men inte uppåt */
 }
 h1 {
     font-family: "Merienda One", cursive;
 }
 body {
+    /* Ändrad rad - radbruten av utrymmesskäl*/
     font-family: "Helvetica Neue",
     "Liberation Sans", Calibri, Arial, sans-serif;
 }
@@ -67,12 +69,13 @@ h1::first-letter{
     color: #00AF62;
 }
 .menu h2 {
+    /* Ny rad i befintlig regel*/
     font-family: "Merienda One", cursive;
 }
 .menu > h2 {
     margin: 0 0 1em;
     padding: 2em 0;
-    background-color: #F5F5F5;
+    background-color: #F5F5F5; /* Mycket ljus grå */
     text-align: center;
 }
 .startpage .logo {
@@ -80,10 +83,10 @@ h1::first-letter{
     height: 198px;
 }
 .hwrap {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    display: flex; /* Gör divven till en flex container*/
+    flex-wrap: wrap;/* Radbryt om det behövs*/
+    align-items: center;/*Lägg elementen centrerat vertikalt*/
+    justify-content: center;/* Och intill varandra centrerat */
 }
 .hwrap > a {
     margin-right: 30px;
